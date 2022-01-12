@@ -1,0 +1,17 @@
+.forgot-password {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  color: var(--hospital-green);
+  text-decoration: none;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .sign-up-btn {
+    position: absolute;
+    bottom: 30px;
+    width: inherit;
+  }
+}

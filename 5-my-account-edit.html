@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YARD Sale</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon_yard_sale.svg"
+      type="image/x-icon"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Variables style -->
+    <style></style>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/1-new-password.css" />
+    <link rel="stylesheet" href="./assets/css/2.send-email.css" />
+    <link rel="stylesheet" href="./assets/css/3-account.css" />
+    <link rel="stylesheet" href="./assets/css/4-account-created.css" />
+    <link rel="stylesheet" href="./assets/css/5-my-account-edit.css" />
+  </head>
+  <body>
+    <main>
+      <div class="account">
+        <div class="account-form-container">
+          <h1 class="account-title">My account</h1>
+
+          <form class="form" action="/">
+            <div class="form-data">
+              <!-- Name -->
+              <label class="form-label" for="Name">Name</label>
+              <p class="form-read-only">Camila Yokoo</p>
+
+              <!-- Email address -->
+              <label class="form-label" for="email-address"
+                >Email address</label
+              >
+              <p class="form-read-only">camilayokoo@gmail.com</p>
+
+              <!-- Password -->
+              <label class="form-label" for="password">Password</label>
+              <p class="form-read-only">***********</p>
+            </div>
+            <!-- Confirm -->
+            <input
+              class="form-btn account-btn secondary-btn"
+              type="submit"
+              value="Edit"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

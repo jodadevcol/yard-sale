@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YARD Sale</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon_yard_sale.svg"
+      type="image/x-icon"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Variables style -->
+    <style></style>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/1-new-password.css" />
+    <link rel="stylesheet" href="./assets/css/2.send-email.css" />
+    <link rel="stylesheet" href="./assets/css/3-account.css" />
+    <link rel="stylesheet" href="./assets/css/4-account-created.css" />
+  </head>
+  <body>
+    <main>
+      <div class="account">
+        <div class="account-form-container">
+          <h1 class="account-title">My account</h1>
+
+          <form class="form" action="/">
+            <div class="form-data">
+              <!-- Name -->
+              <label class="form-label" for="Name">Name</label>
+              <input
+                class="form-input input-name"
+                type="name"
+                id="name"
+                placeholder="Example"
+              />
+              <!-- Email address -->
+              <label class="form-label" for="email-address"
+                >Email address</label
+              >
+              <input
+                class="form-input input-email"
+                type="email"
+                id="email-address"
+                placeholder="example@example.com"
+              />
+              <!-- Password -->
+              <label class="form-label" for="password">Password</label>
+              <input
+                class="form-input input-password"
+                type="password"
+                id="password"
+                placeholder="*****"
+              />
+            </div>
+            <!-- Confirm -->
+            <input
+              class="form-btn account-btn primary-btn"
+              type="submit"
+              value="Create"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
